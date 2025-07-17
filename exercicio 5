@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+float calcularVolume(float raio) {
+    return (4.0 * M_PI * raio * raio * raio) / 3.0;
+}
+
+int main() {
+    float x;
+    scanf("%f", &x);
+    printf("Volume: %.2f\n", calcularVolume(x));
+    return 0;
+}
